@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17242D">
+  <title>FAQ — ICAN UK & District Society</title>
+  <meta name="description" content="Frequently asked questions about ICAN UK & District Society membership, CPD, events, benevolent fund and governance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/faq.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="scroll-progress" class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+  <header id="site-header" class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="../images/logo.jpg" alt="ICAN UK & District Society logo">
+      </a>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <!-- home -->
+           <li class="nav-item has-mega" data-mega>
+            <a href="../index.html">Home</a>
+           </li>
+          <li class="nav-item has-mega" data-mega>
+            <button type="button" class="nav-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="mega-governance" id="trigger-governance">
+              Governance
+            </button>
+            <div id="mega-governance" class="mega-menu">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Governance</h4>
+                  <p class="mega-desc">Oversight, standards and continuity.</p>
+                </div>
+                <ul class="mega-links">
+                  <li><a href="committee.html">Our Committee</a></li>
+                  <li><a href="bye-law.html">Bye Laws</a></li>
+                  <li><a href="executive.html">Executive Team</a></li>
+                  <li><a href="past-chairs.html">Past Chair</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-mega" data-mega>
+            <button type="button" class="nav-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="mega-news" id="trigger-news">
+              News & Events
+            </button>
+            <div id="mega-news" class="mega-menu">
+              <div class="mega-grid">
+                <div class="mega-col">
+                  <h4>Knowledge & Gathering</h4>
+                  <p class="mega-desc">CPD, technical resources and community.</p>
+                </div>
+                <ul class="mega-links">
+                  <li><a href="latest-news.html">News Latest</a></li>
+                  <li><a href="events-calendar.html">Events Calendar</a></li>
+                  <li><a href="events-calendar.html#upcoming-events">Upcoming Events</a></li>
+                  <li><a href="events-calendar.html#monthly-meetings">Monthly Meetings</a></li>
+                  <li><a href="events-calendar.html#resources">Meeting Packs</a></li>
+                  <li><a href="events-calendar.html#past-events">Past Events</a></li>
+                  <li><a href="#">Technical Resources</a></li>
+                  <li><a href="#">Newsletters</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="benevolent.html" class="nav-link is-active" aria-current="page">Benevolent</a>
+          </li>
+          <li class="nav-item"><a href="sponsor.html" class="nav-link">Sponsors</a></li>
+          <li class="nav-item"><a href="index.html#about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="../index.html#member-hub" class="btn btn-primary header-join">Member Login</a>
+        <button type="button" id="mobile-toggle" class="mobile-toggle" aria-expanded="false" aria-controls="mobile-drawer"
+          aria-label="Open navigation">
+          <span class="hamburger"><i></i><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+    <div id="nav-overlay" class="nav-overlay" hidden style="display:none"></div>
+    <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true" role="dialog" aria-modal="true"
+      aria-label="Mobile navigation">
+      <div class="drawer-header">
+        <a href="../index.html" class="logo"><img src="../images/logo.jpg" alt="ICAN UK logo"></a>
+        <button type="button" id="mobile-close" class="mobile-close" aria-label="Close navigation menu">×</button>
+      </div>
+      <div class="drawer-body">
+        <div class="drawer-group">
+          <button type="button" class="drawer-accordion" aria-expanded="false" aria-controls="drawer-gov">Governance</button>
+          <div id="drawer-gov" class="drawer-panel" hidden>
+            <a href="committee.html">Our Committee</a>
+            <a href="bye-law.html">Bye Laws</a>
+            <a href="executive.html">Executive Team</a>
+            <a href="past-chairs.html">Past Chair</a>
+          </div>
+        </div>
+        <div class="drawer-group">
+          <button type="button" class="drawer-accordion" aria-expanded="false" aria-controls="drawer-news">News & Events</button>
+          <div id="drawer-news" class="drawer-panel" hidden>
+            <a href="latest-news.html">News Latest</a>
+            <a href="events-calendar.html">Events Calendar</a>
+            <a href="events-calendar.html#upcoming-events">Upcoming Events</a>
+            <a href="events-calendar.html#monthly-meetings">Monthly Meetings</a>
+            <a href="events-calendar.html#resources">Meeting Packs</a>
+            <a href="events-calendar.html#past-events">Past Events</a>
+            <a href="#">Technical Resources</a>
+            <a href="#">Newsletters</a>
+          </div>
+        </div>
+        <a href="gallery.html" class="drawer-link">Gallery</a>
+        <a href="benevolent.html" class="drawer-link is-active" aria-current="page">Benevolent</a>
+        <a href="sponsor.html" class="drawer-link is-active" aria-current="page">Sponsors/a>
+        <a href="index.html#about" class="drawer-link">About Us</a>
+        <a href="#" class="drawer-link">FAQ</a>
+        <a href="#contact" class="drawer-link">Contact Us</a>
+        <a href="../index.html#member-hub" class="drawer-link drawer-login">Member Login</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="faq-hero">
+      <div class="container faq-hero-inner">
+        <div>
+          <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:1rem"><div style="width:7px;height:7px;background:var(--color-brass);border-radius:50%"></div><span class="eyebrow" style="margin:0">Support • Est. 1988 • London • 550+ Members</span></div>
+          <h1 class="faq-title">Questions, <em>Answered</em></h1>
+          <p class="faq-desc">Everything you need to know about membership, CPD, events, benevolent support and governance. Can't find an answer? Talk to our Welfare Officer.</p>
+          <div class="faq-search-wrap">
+            <span class="icon">⌕</span>
+            <input id="faq-search" type="search" placeholder="Search FAQ — e.g. membership, CPD, events">
+          </div>
+          <div class="faq-stats">
+            <div><b>6 Categories</b><span>Governance to Welfare</span></div>
+            <div><b>24 Answers</b><span>Updated Nov 2025</span></div>
+            <div><b>24h Response</b><span>Publicity Secretary</span></div>
+          </div>
+        </div>
+        <div style="display:grid;gap:1rem">
+          <div style="background:var(--color-white);border:1px solid var(--color-line);border-radius:22px;padding:1.25rem">
+            <p class="eyebrow">Belonging • Access Your Professional Home</p>
+            <h4 style="font-family:var(--font-display);font-size:1.15rem;margin-top:.4rem">Member Hub FAQ</h4>
+            <p style="font-size:.84rem;opacity:.7;margin-top:.5rem;line-height:1.6">CPD certificates, directory, benevolence forms, magazine archive and mentorship matching — one portal.</p>
+            <div style="margin-top:1rem;display:flex;gap:.4rem;flex-wrap:wrap"><span class="badge">SSO • FCA Verified</span><span class="badge">Encrypted</span></div>
+          </div>
+          <div style="background:var(--color-navy);color:var(--color-ivory);border-radius:22px;padding:1.25rem">
+            <p class="eyebrow" style="color:var(--color-brass)">Quick Links</p>
+            <h4 style="font-family:var(--font-display);margin-top:.3rem">Can't find it? Jump to</h4>
+            <div style="margin-top:.8rem;display:grid;gap:.4rem">
+              <a href="#membership" style="font-size:.84rem;opacity:.8">→ Membership & Joining</a>
+              <a href="#cpd" style="font-size:.84rem;opacity:.8">→ CPD & Professional Development</a>
+              <a href="#events" style="font-size:.84rem;opacity:.8">→ Events & Conference</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faqs" class="section">
+      <div class="container">
+        <div class="faq-cats">
+          <button class="cat-btn is-active" data-cat="all">All Questions</button>
+          <button class="cat-btn" data-cat="membership">Membership</button>
+          <button class="cat-btn" data-cat="cpd">CPD</button>
+          <button class="cat-btn" data-cat="events">Events</button>
+          <button class="cat-btn" data-cat="benevolent">Benevolent</button>
+          <button class="cat-btn" data-cat="governance">Governance</button>
+          <button class="cat-btn" data-cat="sponsors">Sponsors</button>
+        </div>
+
+        <div class="faq-layout">
+          <div class="faq-nav-card">
+            <h4>Browse by Topic</h4>
+            <div class="faq-nav-list">
+              <a href="#membership">Membership <span class="count">5</span></a>
+              <a href="#cpd">CPD & Development <span class="count">4</span></a>
+              <a href="#events">Events & Conference <span class="count">4</span></a>
+              <a href="#benevolent">Benevolent & Welfare <span class="count">4</span></a>
+              <a href="#governance">Governance <span class="count">4</span></a>
+              <a href="#sponsors">Sponsors <span class="count">3</span></a>
+            </div>
+            <div style="margin-top:1.2rem;padding-top:1rem;border-top:1px solid var(--color-line)">
+              <p style="font-size:.78rem;opacity:.6;line-height:1.5">Still stuck? Our Welfare Officer and Membership Secretary respond within 24 hours.</p>
+              <a href="#contact" class="btn btn-primary" style="margin-top:.8rem;width:100%">Contact Us →</a>
+            </div>
+          </div>
+
+          <div>
+            <!-- MEMBERSHIP -->
+            <div id="membership" class="faq-group" data-group="membership">
+              <div class="faq-group-head"><h3><b>01</b> Membership</h3><div class="line"></div></div>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Who can join ICAN UK & District Society? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Any Chartered Accountant of ICAN Nigeria living, working or studying in the UK. We welcome newly qualified ACAs to Fellows (FCA), plus student members on the ICAN pathway. You must be in good standing with ICAN Nigeria.</p><p>Apply via <a href="../index.html#membership">Membership Portal</a> — verification via FCA check and SSO.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">What is the membership fee and what does it include? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Annual subscription covers access to 12+ CPD programmes, monthly meetings, mentorship matching, benevolence fund eligibility, Member Hub (certificates, directory, magazine archive), and discounted Annual Conference & Gala Dinner tickets.</p><p>Fees are reviewed annually by the Executive Committee. Contact <a href="#">Financial Secretary</a> for current rates.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">I just moved to the UK — how does integration support work? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Our Welfare Officer (Mrs Ngozi M. — Compassionate member support) runs integration clinics: career guidance, accommodation pointers, and a buddy system linking new arrivals with established members in London, Birmingham, Manchester & Scotland.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">How do I access the Member Hub? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Visit Member Hub → SSO login with FCA-verified email. You get CPD tracking, event registration, benevolence forms, directory and magazine archive. Encrypted and FCA Verified.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Is there a student pathway? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Yes. We run mentorship from student to Fellowship, CPD for exam preparation, and welfare support. Contact Membership Secretary: Ifeoma Okafor, FCA.</p></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CPD -->
+            <div id="cpd" class="faq-group" data-group="cpd">
+              <div class="faq-group-head"><h3><b>02</b> CPD & Professional Development</h3><div class="line"></div></div>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button type="button" class="faq-q">How many CPD hours do you offer per year? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>12+ structured programmes annually — technical masterclasses, leadership pipelines, HMRC policy updates, Big Four insights. Most are verifiable CPD and certificates are auto-issued in Member Hub.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Are sessions hybrid or in-person? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Monthly meetings are hybrid (London + Teams). Annual Conference is in-person flagship in London (24 Oct). CPD portal has on-demand archive.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Who delivers the technical content? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Technical Secretary: Samuel Olayioye, FCA — rigour in technical delivery. Plus guest speakers from Big Four, HMRC, ICAN Nigeria leadership and sponsors like KPMG, Deloitte, Sage.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Do you support overseas CPD recognition? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Yes. Our certificates map to ICAN Nigeria CPD framework and are recognised for UK professional development records. Contact General Secretary: Olajumoke Sangojinmi, FCA.</p></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- EVENTS -->
+            <div id="events" class="faq-group" data-group="events">
+              <div class="faq-group-head"><h3><b>03</b> Events & Conference</h3><div class="line"></div></div>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button type="button" class="faq-q">When is the Annual International Accountants' Conference? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Next Gathering London — Annual Conference & Dinner: Heritage, Innovation, Impact. Date configurable via <code>CONFERENCE_DATE</code> in js/script.js. Currently set to 20 Nov 2026. Includes keynotes, CPD, recognition awards and gala dinner.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">What is the difference between monthly meetings and the conference? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Monthly meetings = 2-hour CPD + networking (free for members). Conference = full-day flagship with 300+ delegates, exhibition, headline sponsors, gala dinner. See <a href="events-calendar.html">Events Calendar</a>.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Where are past event photos and packs? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Gallery: <a href="gallery.html">pages/gallery.html</a> — includes 6th Zonal, 7th International, 2022 Archive, picnic and gala. Meeting packs under Events Calendar → Resources.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Can non-members attend? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Yes, guests can attend monthly meetings by invitation. Conference tickets are open to public with member discount. Register via Events Calendar.</p></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BENEVOLENT -->
+            <div id="benevolent" class="faq-group" data-group="benevolent">
+              <div class="faq-group-head"><h3><b>04</b> Benevolent & Welfare</h3><div class="line"></div></div>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button type="button" class="faq-q">What does the benevolent fund cover? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Benevolence, integration support, career guidance and safety net for members and families. Includes hardship grants, bereavement support and new-arrival assistance.</p><p>Apply confidentially via <a href="benevolent.html">Benevolent page</a> or contact Welfare Officer.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Who is the Welfare Officer? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Membership Secretary team — Ifeoma Okafor, FCA — Compassionate member support, plus Welfare Officer role for benevolence fund and integration support for new arrivals.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Is the support confidential? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Yes, 100%. Applications are reviewed by Welfare Officer and Treasurer (Iredele Oyedele, FCA — Accountability in every figure) only. Data is encrypted in Member Hub.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">How is it funded? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Partly from member subscriptions, partly from Silver & Community Supporters and gala fundraising. See <a href="sponsors.html">Sponsors</a>.</p></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- GOVERNANCE -->
+            <div id="governance" class="faq-group" data-group="governance">
+              <div class="faq-group-head"><h3><b>05</b> Governance</h3><div class="line"></div></div>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button type="button" class="faq-q">What is the governance structure? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Executive Committee led by Chairman: Akintayo Ojo FCA — Stewardship of standards and community. Includes Vice Chairman, Deputy Vice, General Secretary, Financial Secretary, Treasurer, Technical Secretary, Social/Publicity Secretary, Membership Secretary and Ex-Officios. See <a href="executive.html">Executive Team</a>.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Where can I find the bye-laws? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p><a href="bye-law.html">Bye Laws</a> — oversight, standards and continuity. Based on Chartered Accountants Act 1965.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Who are past chairs? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Listed under <a href="past-chairs.html">Past Chair</a> — institutional memory and guidance from Ex-Officio/IPC: Marian Adekoya, FCA — Heritage guiding the future.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Is ICAN UK not-for-profit? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Yes — 100% Not-for-Profit. Registered office: Coker Isah & Coker; 74 Church Road, Crystal Palace, London SE19 2EZ. Financial stewardship by Treasurer and Financial Secretary (Vivian Okolie, FCA).</p></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SPONSORS -->
+            <div id="sponsors" class="faq-group" data-group="sponsors">
+              <div class="faq-group-head"><h3><b>06</b> Sponsors</h3><div class="line"></div></div>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button type="button" class="faq-q">How can my company sponsor ICAN UK? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>We have Platinum (£10k/yr), Gold (£5k/yr) and Silver (£2.5k/yr) tiers. Headline includes stage naming, keynote slot and Member Hub feature. See <a href="sponsor.html">Sponsors page</a> and download brochure.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">What visibility do sponsors get? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Year-round across 550+ members, 12+ programmes, magazine archive, newsletter (2-4x), conference backdrop, website and social. 92% member retention, 4.8/5 sponsor NPS.</p></div>
+                </div>
+                <div class="faq-item">
+                  <button type="button" class="faq-q">Who do I contact for sponsorship? <span class="arrow">+</span></button>
+                  <div class="faq-a"><p>Publicity Secretary: Deborah O. Suleiman, ACA — Community, culture and connection. Email: generalsecretary@ican-uk.org. Response within 24h.</p></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="contact" class="faq-contact">
+              <div>
+                <p class="eyebrow" style="color:var(--color-brass)">Still need help?</p>
+                <h3>Identity, Community, <em>Future —</em> Talk to Us.</h3>
+                <p>Whether you are newly qualified in London or a Fellow with decades of impact, there is a home for you here. Our Executive Committee responds within 24 hours.</p>
+                <div class="btns">
+                  <a href="mailto:generalsecretary@ican-uk.org" class="btn btn-cta-primary">Email Secretariat →</a>
+                  <a href="benevolent.html" class="btn btn-cta-secondary">Welfare Support</a>
+                </div>
+              </div>
+              <div style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:1.2rem">
+                <div style="display:flex;justify-content:space-between;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;opacity:.6;padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.08)"><span>Email</span><b style="color:var(--color-brass)">generalsecretary@ican-uk.org</b></div>
+                <div style="display:flex;justify-content:space-between;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;opacity:.6;padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.08)"><span>Phone</span><b>+44 7535 230 605</b></div>
+                <div style="display:flex;justify-content:space-between;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;opacity:.6;padding:.5rem 0"><span>Office</span><b>SE19 2EZ, London</b></div>
+                <p style="margin-top:1rem;font-size:.76rem;opacity:.6">Chartered Accountants Act 1965 compliance • Registered office address – Coker Isah & Coker; 74 Church Road, Crystal Palace, London.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="logo footer-logo"><img src="../images/logo.jpg" alt="ICAN UK logo"></div>
+        <p class="footer-summary">A distinguished professional community representing, supporting and elevating Nigerian chartered accountants across the UK.</p>
+      </div>
+      <div class="footer-col"><h4>Governance</h4><ul><li><a href="committee.html">Our Committee</a></li><li><a href="../pages/bye-law.html">Bye Laws</a></li><li><a href="executive.html">Executive Team</a></li><li><a href="past-chairs.html">Past Chair</a></li></ul></div>
+      <div class="footer-col"><h4>Resources</h4><ul><li><a href="latest-news.html">Latest News</a></li><li><a href="sponsors.html">Sponsors</a></li><li><a href="faq.html">FAQ</a></li><li><a href="#events">Upcoming Events</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><span>Email: generalsecretary@ican-uk.org</span></li><li><span>Phone: +44 7535 230 605</span></li></ul></div>
+    </div>
+    <div class="footer-bottom"><div class="container bottom-inner"><p>Copyright © ICAN UK & District Society. All Rights Reserved.</p><p class="compliance">Chartered Accountants Act 1965 compliance notice.</p></div></div>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top"><span aria-hidden="true">↑</span><span class="visually-hidden">Back to top</span></button>
+  <script src="../js/faq.js"></script>
+</body>
+</html>
